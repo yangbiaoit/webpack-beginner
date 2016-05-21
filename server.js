@@ -1,7 +1,7 @@
 var webpack = require('webpack');
 var WebpackDevServer = require('webpack-dev-server');
 var config = require('./webpack.config.js');
-// webpack server.js 很好玩
+// webpack server.js 很好玩  
 new WebpackDevServer(webpack(config), {
     publicPath: config.output.publicPath,
     hot: true,　　//开启热调试
